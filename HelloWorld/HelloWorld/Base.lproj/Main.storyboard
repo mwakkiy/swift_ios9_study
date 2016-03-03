@@ -51,6 +51,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="input01" destination="jqQ-S0-WOx" id="OFq-qH-p3L"/>
                         <outlet property="label01" destination="3xM-nz-vL8" id="j0X-jC-Tch"/>
                     </connections>
                 </viewController>

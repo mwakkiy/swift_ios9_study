@@ -12,12 +12,15 @@ class ViewController: UIViewController {
 
     //ラベルを使えるように定義
     @IBOutlet weak var label01: UILabel!
+    //インプットフォームを定義
+    @IBOutlet weak var input01: UITextField!
     //ボタンを押した時発動
     @IBAction func submit(sender: AnyObject) {
         print("ボタンを押した");
         
         //ラベルのテキスト変更
-        label01.text = "送信";
+        label01.text = input01.text;
+        
     }
     
     
