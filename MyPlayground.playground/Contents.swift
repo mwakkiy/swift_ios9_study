@@ -84,7 +84,46 @@ var totalcost = mene["ハンバーグ"]! + mene["カレー"]! + mene["ラーメ�
 print("合計金額は、\(totalcost)円");
 
 
+//条件分岐
+var age:Int = 20;
+if age >= 18 {
+    //スコープ
+    print("使えるよ")
+} else {
+    print("１８歳以上しか使えません")
+}
 
+var name2:String = "waki";
+if name2 == "waki" {
+    print("\(name2)さん、こんにちは！")
+} else {
+    print("\(name2)さんは使えません");
+}
+
+if name2 == "waki" && age >= 18 {
+    print("あそべるよ");
+}
+
+if name2 == "waki" || age >= 18 {
+    print("あそべるよ");
+}
+
+if isMale {
+    print("あなたは男です")
+}
+
+
+var id:String = "testtest";
+var pass:String = "passpass"
+if (id == "testtest" && pass == "passpass") {
+    print("ログイン許可")
+} else if  id != "testtest" && pass != "passpass"{
+    print("両方ちがうよ")
+} else if  id != "testtest" {
+    print("IDがちがうよ")
+} else {
+    print("PASSがちがうよ")
+}
 
 
 
