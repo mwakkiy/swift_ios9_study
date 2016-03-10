@@ -152,6 +152,13 @@ for (index, value) in arr2.enumerate() {
 }
 print(arr2)
 
+//while loop
+var i2 = 1;
+while i2 < 100 {
+    print(i2);
+    i2 = i2 * 2;
+}
+
 
 
 
