@@ -130,19 +130,27 @@ if (id == "testtest" && pass == "passpass") {
 for var i = 1; i < 10; i++ {
     print(i);
 }
-
+/*
 for var i = 2; i <= 20; i = i + 2 {
     print(i);
 }
+*/
+
+var arr:Array = [4,9,1,7];
+for x in arr {
+    print(x)
+}
+for (index, value) in arr.enumerate() {
+    arr[index] = value + 1;
+}
+print(arr);
 
 
-
-
-
-
-
-
-
+var arr2:[Double] = [2,4,6,8,11];
+for (index, value) in arr2.enumerate() {
+    arr2[index] = value / 2;
+}
+print(arr2)
 
 
 
