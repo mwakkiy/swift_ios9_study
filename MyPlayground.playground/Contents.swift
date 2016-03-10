@@ -126,4 +126,24 @@ if (id == "testtest" && pass == "passpass") {
 }
 
 
+//Loop
+for var i = 1; i < 10; i++ {
+    print(i);
+}
+
+for var i = 2; i <= 20; i = i + 2 {
+    print(i);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
